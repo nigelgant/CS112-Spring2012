@@ -2,6 +2,12 @@
 
 import math
 
+def distance(a,b):
+    x1,y1 = a
+    x2,y2 = b
+    return math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    
+    
 # Distance formula
 #   calculate a function called "distance" to calculate the distance between two points.
 #   http://www.purplemath.com/modules/distform.htm
